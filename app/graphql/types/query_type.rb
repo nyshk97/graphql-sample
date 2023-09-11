@@ -25,5 +25,7 @@ module Types
     def test_field
       "Hello World!"
     end
+
+    field :songs, resolver: Queries::Songs
   end
 end
