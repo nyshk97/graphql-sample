@@ -7,5 +7,6 @@ module Types
       "Hello World"
     end
     field :create_song, mutation: Mutations::CreateSong
+    field :update_song, mutation: Mutations::UpdateSong
   end
 end
