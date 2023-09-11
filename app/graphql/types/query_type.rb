@@ -27,5 +27,6 @@ module Types
     end
 
     field :songs, resolver: Queries::Songs
+    field :song, resolver: Queries::Song
   end
 end
