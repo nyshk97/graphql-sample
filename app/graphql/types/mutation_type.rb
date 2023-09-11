@@ -8,5 +8,6 @@ module Types
     end
     field :create_song, mutation: Mutations::CreateSong
     field :update_song, mutation: Mutations::UpdateSong
+    field :delete_song, mutation: Mutations::DeleteSong
   end
 end
